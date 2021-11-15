@@ -54,8 +54,6 @@ module.exports = {
       accounts: [
         "7be17a3ad85e054007d2ad61624017461389f4472259861e26bc37113f4c1f3c",
       ],
-      gasPrice: 10000000000000,
-      nonce: 0,
     },
   },
   etherscan: {

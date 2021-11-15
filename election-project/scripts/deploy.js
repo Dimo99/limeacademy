@@ -15,12 +15,12 @@ async function deployElectionContract() {
 
   console.log("USElection Contract address: ", usElectionContract.address);
 
-  await hre.run("verify:verify", {
-    address: usElectionContract.address,
-    constructorArguments: [
-      // if any
-    ],
-  });
+  //   await hre.run("verify:verify", {
+  //     address: usElectionContract.address,
+  //     constructorArguments: [
+  //       // if any
+  //     ],
+  //   });
 
   console.log("Done!");
 }

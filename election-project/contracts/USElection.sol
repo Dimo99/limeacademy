@@ -2,7 +2,7 @@
 pragma solidity ^0.8.0;
 pragma abicoder v2;
 
-import "./Ownable.sol";
+import "@openzeppelin/contracts/access/Ownable.sol";
 
 contract USElection is Ownable {
     uint8 public constant BIDEN = 1;

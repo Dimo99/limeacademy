@@ -49,13 +49,13 @@ contract USElection is Ownable {
     function currentLeader() public view returns(uint8) {
         if(seats[BIDEN] > seats[TRUMP]) {
             return BIDEN;
-		}
+        }
 
-		if(seats[TRUMP] > seats[BIDEN]) {
-		    return TRUMP;
-		}
-		    
-		return 0;
+        if(seats[TRUMP] > seats[BIDEN]) {
+        return TRUMP;
+        }
+
+        return 0;
     }
 
     function endElection() public onlyOwner {
